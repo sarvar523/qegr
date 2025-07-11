@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Kendric Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 bg-gray-800">
+    <div class="text-white font-bold text-xl">Portfolio</div>
+    <ul class="flex space-x-6 text-sm text-white">
+      <li><a href="#" class="hover:text-cyan-400">Home</a></li>
+      <li><a href="#" class="hover:text-cyan-400">About</a></li>
+      <li><a href="#" class="hover:text-cyan-400">Services</a></li>
+      <li><a href="#" class="hover:text-cyan-400">Portfolio</a></li>
+      <li><a href="#" class="hover:text-cyan-400">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20">
+    <h2 class="text-xl mb-2">Hello It's Me</h2>
+    <h1 class="text-4xl font-bold text-white">John Kendric</h1>
+    <h3 class="text-xl text-cyan-400 mt-2">And I'm a Frontend Developer</h3>
+    <p class="max-w-xl mx-auto mt-4 text-gray-300">
+      I’m passionate about crafting engaging, clean UI with a performance mindset.
+    </p>
+    <button class="mt-6 px-6 py-2 bg-cyan-400 text-black rounded hover:bg-cyan-300">
+      Download CV
+    </button>
+  </section>
+
+  <!-- Services -->
+  <section class="bg-gray-800 py-16">
+    <h2 class="text-center text-3xl font-semibold text-white mb-10">Our <span class="text-cyan-400">Services</span></h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div class="bg-gray-700 p-6 rounded-lg text-center">
+        <h3 class="text-xl font-bold mb-2">Web Development</h3>
+        <p class="text-gray-300 mb-4">Responsive websites using modern tech.</p>
+        <button class="bg-cyan-400 px-4 py-2 rounded text-black">Read More</button>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg text-center">
+        <h3 class="text-xl font-bold mb-2">Graphic Design</h3>
+        <p class="text-gray-300 mb-4">Visually appealing designs and branding.</p>
+        <button class="bg-cyan-400 px-4 py-2 rounded text-black">Read More</button>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg text-center">
+        <h3 class="text-xl font-bold mb-2">Digital Marketing</h3>
+        <p class="text-gray-300 mb-4">SEO, social media & ad strategies.</p>
+        <button class="bg-cyan-400 px-4 py-2 rounded text-black">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="bg-gray-700 py-16">
+    <h2 class="text-center text-3xl font-semibold mb-10">Latest <span class="text-cyan-400">Project</span></h2>
+    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-6">
+      <!-- Repeat this image block for each project -->
+      <div><img src="./3909feebacb12e7b1504214f53b93c0555f550db.jpg" alt="Project" class="rounded shadow-lg"></div>
+      <div><img src="./3909feebacb12e7b1504214f53b93c0555f550db.jpg" alt="Project" class="rounded shadow-lg"></div>
+      <div><img src="./3909feebacb12e7b1504214f53b93c0555f550db.jpg" alt="Project" class="rounded shadow-lg"></div>
+      <div><img src="./3909feebacb12e7b1504214f53b93c0555f550db.jpg" alt="Project" class="rounded shadow-lg"></div>
+      <div><img src="./3909feebacb12e7b1504214f53b93c0555f550db.jpg" alt="Project" class="rounded shadow-lg"></div>
+      <div><img src="./3909feebacb12e7b1504214f53b93c0555f550db.jpg" alt="Project" class="rounded shadow-lg"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-gray-800 py-16">
+    <h2 class="text-center text-3xl font-semibold text-white mb-10">Contact <span class="text-cyan-400">Me!</span></h2>
+    <div class="max-w-xl mx-auto px-6">
+      <form class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" placeholder="Full Name" class="p-3 rounded bg-gray-700 text-white" />
+        <input type="email" placeholder="Email Address" class="p-3 rounded bg-gray-700 text-white" />
+        <input type="text" placeholder="Mobile Number" class="p-3 rounded bg-gray-700 text-white" />
+        <input type="text" placeholder="Email Subject" class="p-3 rounded bg-gray-700 text-white" />
+        <textarea placeholder="Your Message" class="md:col-span-2 p-3 rounded bg-gray-700 text-white h-40"></textarea>
+        <button class="md:col-span-2 bg-cyan-400 text-black py-2 rounded hover:bg-cyan-300">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-center text-sm text-gray-400 p-4">
+    Copyright © 2025 by John Kendric | All Rights Reserved
+  </footer>
+
+</body>
+</html>
